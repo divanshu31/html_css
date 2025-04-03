@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 17%;
+    flex-direction: row;
+}
+.block-element{
+    display: block;
+    border: 10px solid black;
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+}
+.inline-element{
+    display: inline;
+    border: 10px dotted black;
+    background-color: lightcoral;
+    padding: 5px;
+    border-radius: 7px;
+}
+.inline-block {
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    text-align: center;
+}
+.hidden-element {
+    display: none;
+    padding: 10px;
+    background-color: gray;
+    border: 2px solid black;
+    text-align: center;
+}

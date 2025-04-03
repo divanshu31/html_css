@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20%;
+}
+.box{
+    width: 150px;
+    border: 10px solid black;
+    justify-content: center;
+    padding: 15px;
+    margin: 10px;
+}
+.box1{
+    background-color: lightblue;
+    box-sizing: border-box;
+    border: 10px dotted limegreen;
+    padding: 20px;
+}
+.box2{
+    background-color: lightcoral;
+    box-sizing: content-box;
+    border: 7px solid darkblue;
+}
+.box3{
+    background-color: lightgoldenrodyellow;
+    box-sizing:border-box;
+}
